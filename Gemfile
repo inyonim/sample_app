@@ -24,3 +24,6 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
+
+gem 'rails','3.2.11'
+gem 'bootstrap-sass', '2.1'
