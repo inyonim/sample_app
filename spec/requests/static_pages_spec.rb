@@ -8,7 +8,7 @@ describe "Static pages" do
     before { visit root_path }
     subject { page }
 
-    it { should have_selector('h1', text: 'Sample App')}
+    it { should have_selector('h1', text: 'fruitpie.com')}
     it { should have_selector('title', text: full_title('')) }
   end
 
